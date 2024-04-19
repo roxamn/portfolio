@@ -59,39 +59,39 @@
       <div class="main">
       <div class="banner">
         <!-- put gif here-->
-        <p>Welcome to my world</p>
+        <p id="welcometext">Welcome to my world</p>
         </div> 
      </div>
 
     <div class="sections" id="menu">
-        <div class="icon icon1">
-          <a href="#miniaturehouse"> <img src="projects pictures/Miniature House/lil trace.png"></a>
+        <div class="icon" id="icon1">
+          <a href="#miniaturehouse"> <img src="projects pictures/Miniature House/lil trace.png"></a>        
         </div>
-        <div class="icon icon2">
+        <div class="icon" id="icon2">
           <a href="#iceman"> <img src="projects pictures/The Ice Man/minilogoiceman.png"></a>
         </div>
-        <div class="icon icon3">
+        <div class="icon" id="icon3">
           <a href="#sarah"> <img src="projects pictures/Stages of Grief/lil trace sarah.png"></a>
         </div>
-        <div class="icon icon4">
+        <div class="icon" id="icon4">
           <a href="#plasti"> <img src="projects pictures/Plastiglomerate City/lil trace2.png"></a>
         </div>
-        <div class="icon icon5">
+        <div class="icon" id="icon5">
           <a href="#doll"> <img src="projects pictures/Beautiful Doll/dolls icon.png"></a>
         </div>
-        <div class="icon icon6">
+        <div class="icon" id="icon6">
           <a href="#space"> <img src="projects pictures/Space Swinging/lil stuff.png"></a>
         </div>
-        <div class="icon icon7">
+        <div class="icon" id="icon7">
           <a href="#tea"> <img src="projects pictures/Tea, Earl Grey, Hot/lil trace3.png"></a>
         </div>
-        <div class="icon icon8">
+        <div class="icon" id="icon8">
           <a href="#invisible"><img src="projects pictures/The ramblings of a jaded, invisible office worker/liltraceinvisible.png"></a>
         </div>
-        <div class="icon icon9">
+        <div class="icon" id="icon9">
           <a href="#rotoscope">  <img src="projects pictures/Rotoscope/roto1.png"></a>
         </div>
-        <div class="icon icon10">
+        <div class="icon" id="icon10">
           <a href="#tense"><img src="projects pictures/Tense Anticipation/lil trace 4.png"></a>
         </div>
          
@@ -327,11 +327,11 @@
         <div class="carousel-container">
           <div class="carousel">
             <img src="projects pictures/Rotoscope/stickers.png">
-            <img src="projects pictures/Rotoscope/ROTOLOGO (1).png">
-            <img src="projects pictures/Rotoscope/home foundation sweet baby jesus.png">
-            <img src="projects pictures/Rotoscope/18AF6DB2-24E5-4915-930E-AB280A724372.JPG">
-            <img src="projects pictures/Rotoscope/postetr.png">
-            <img src="projects pictures/Rotoscope/promo.png">            
+            <img src="projects pictures/Rotoscope/rotating system.png">
+            <img src="projects pictures/Rotoscope/rotomore.png">
+            <img src="projects pictures/Rotoscope/promo.png">
+            <img src="projects pictures/Rotoscope/foundation poster.png">
+            <img src="projects pictures/Rotoscope/us cooking.png">       
         </div>
          <p class="more-text">More about<span class="arrow"></span></p>
         <p class="full-text">
@@ -396,6 +396,58 @@ space and with each other.
         </body>
       
       <script>
+        const welcometextEl = document.getElementById("welcometext");
+        const icon1 = document.getElementById("icon1");
+        const icon2 = document.getElementById("icon2");
+        const icon3 = document.getElementById("icon3");
+        const icon4 = document.getElementById("icon4");
+        const icon5 = document.getElementById("icon5");
+        const icon6 = document.getElementById("icon6");
+        const icon7 = document.getElementById("icon7");
+        const icon8 = document.getElementById("icon8");
+        const icon9 = document.getElementById("icon9");
+        const icon10 = document.getElementById("icon10");        
+
+        icon1.addEventListener("mouseover", event => {
+            welcometextEl.innerHTML = "A house lost in time"
+        })
+
+        icon2.addEventListener("mouseover", event => {
+            welcometextEl.innerHTML = "The Ice Man"
+        })
+
+        icon3.addEventListener("mouseover", event => {
+            welcometextEl.innerHTML = "Stages of Grief"
+        })
+
+        icon4.addEventListener("mouseover", event => {
+            welcometextEl.innerHTML = "Plastiglomerate City"
+        })
+
+        icon5.addEventListener("mouseover", event => {
+            welcometextEl.innerHTML = "Beautiful Doll"
+        })
+
+        icon6.addEventListener("mouseover", event => {
+            welcometextEl.innerHTML = "Space Swinging"
+        })
+
+        icon7.addEventListener("mouseover", event => {
+            welcometextEl.innerHTML = "Tea, Earl Grey, Hot"
+        })
+
+        icon8.addEventListener("mouseover", event => {
+            welcometextEl.innerHTML = "The ramblings of an office worker"
+        })
+
+        icon9.addEventListener("mouseover", event => {
+            welcometextEl.innerHTML = "Rotoscope Podcast"
+        })
+
+        icon10.addEventListener("mouseover", event => {
+            welcometextEl.innerHTML = "Tense Anticipation"
+        })
+
          function toggleContent(contentId) {
           var content = document.getElementById(contentId + "-content");
           if (content.style.display === "none") {
@@ -451,7 +503,7 @@ space and with each other.
       
       // Scroll to the #menu when back-to-top button is clicked
       document.getElementById("back-to-top").onclick = function() {
-          var menuElement = document.getElementById("menu");
+          var menuElement = document.getElementById("icon8");
           menuElement.scrollIntoView({ behavior: 'smooth' });
       }
         
