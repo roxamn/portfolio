@@ -195,8 +195,12 @@
     font-size: 20px;
     }
     
-    a {
-      font-size:10px;
+    .item a {
+        font-family: "Switzer";
+        text-decoration: none;
+        color:#baa6bf;
+        font-size: 10px;
+       cursor: pointer;
     }
   
     
