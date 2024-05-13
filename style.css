@@ -298,16 +298,20 @@
     transition: 0.5s ease-in-out;
   }
   
-  #icon1 { top: 50%; left: 55%; transform: translate(-50%, -50%) rotate(0deg) translateX(24vw); }
-  #icon2 { top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(36deg) translateX(24vw); }
-  #icon3 { top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(72deg) translateX(24vw); }
-  #icon4 { top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(108deg) translateX(24vw); }
-  #icon5 { top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(144deg) translateX(24vw); }
-  #icon6 { top: 50%; left: 45%; transform: translate(-50%, -50%) rotate(180deg) translateX(24vw); }
-  #icon7 { top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(216deg) translateX(24vw); }
-  #icon8 { top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(252deg) translateX(24vw); }
-  #icon9 { top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(288deg) translateX(24vw); }
-  #icon10 { top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(324deg) translateX(24vw); }
+  #icon1 { top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(0deg) translateX(24vw); }
+  #icon2 { top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(30deg) translateX(24vw); }
+  #icon3 { top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(60deg) translateX(24vw); }
+  #icon4 { top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(90deg) translateX(24vw); }
+  #icon5 { top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(120deg) translateX(24vw); }
+  #icon6 { top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(150deg) translateX(24vw); }
+  #icon7 { top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(180deg) translateX(24vw); }
+  #icon8 { top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(210deg) translateX(24vw); }
+  #icon9 { top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(240deg) translateX(24vw); }
+  #icon10 { top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(270deg) translateX(24vw); }
+  #icon11 { top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(300deg) translateX(24vw); }
+  #icon12 {top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(330deg) translateX(24vw);}
+ 
+
   
   .icon img {
     width: 100%;
@@ -315,21 +319,23 @@
   }
 
   .icon:hover {
-    width:15vw;
+   
     height:auto;
     transition: 0.5s ease-in-out;
   }
 
 #icon1 img { transform: rotate(0deg); }
-#icon2 img { transform: rotate(-36deg); }
-#icon3 img { transform: rotate(-72deg); }
-#icon4 img { transform: rotate(-108deg); }
-#icon5 img { transform: rotate(-144deg); }
-#icon6 img { transform: rotate(-180deg); }
-#icon7 img { transform: rotate(-216deg); }
-#icon8 img { transform: rotate(-252deg); }
-#icon9 img { transform: rotate(-288deg); }
-#icon10 img { transform: rotate(-324deg); }
+#icon2 img { transform: rotate(-30deg); }
+#icon3 img { transform: rotate(-60deg); }
+#icon4 img { transform: rotate(-90deg); }
+#icon5 img { transform: rotate(-120deg); }
+#icon6 img { transform: rotate(-150deg); }
+#icon7 img { transform: rotate(-180deg); }
+#icon8 img { transform: rotate(-210deg); }
+#icon9 img { transform: rotate(-240deg); }
+#icon10 img { transform: rotate(-270deg); }
+#icon11 img {transform: rotate(-300deg);}
+#icon12 img {transform: rotate(-330deg);}
   
 
 
