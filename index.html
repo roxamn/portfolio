@@ -99,6 +99,9 @@
         <div class="icon" id="icon12">
           <a href="#morality"><img src="projects pictures/morality/eyeball.png"></a>
         </div>
+        <div class="icon" id="icon13">
+          <a href="#lakehouse"><img src="projects pictures/lakehouse/liliconcircle.png"></a>
+        </div>
 
         </div>
        
@@ -435,6 +438,22 @@ I worked on shot compositions, lighting and editing some of the parts for the vi
 </div> 
 </div>
 
+<!-- Item 13 -->
+
+<div class="item">
+  <h2 id="lakehouse">Lake House</h2>
+  <div class="carousel-container">
+    <div class="carousel">
+      <img src="Lake House/house.png">
+      <img src="Lake House/columns.png">
+  </div>
+ <p class="more-text">Find out more<span class="arrow"></span></p>
+<p class="full-text">
+ This is a website with a myseterious setting. You are welcome to explore and tour the lake house. You must discover the way to navigate yourself, as a guest. There is no pre-established way to roam through it, any way you choose to go is up to you, the guest. <br><br> <a href="Lake House/index.html">Enter the lake house here.</a>
+</p>
+</div> 
+</div>
+
 
      
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -503,6 +522,10 @@ I worked on shot compositions, lighting and editing some of the parts for the vi
 
         icon12.addEventListener("mouseover", event => {
             welcometextEl.innerHTML = "Morality Debate"
+        })
+
+        icon13.addEventListener("mouseover", event => {
+            welcometextEl.innerHTML = "Lake House"
         })
 
          function toggleContent(contentId) {
